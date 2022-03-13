@@ -1,9 +1,8 @@
-//
-//  Notifier.swift
-//  ChaosEngine
-//
-//  Created by Tyler Furby on 3/13/22.
-//
+/**
+ * Chaos Engine | Apple Metal Viewer
+ *
+ * Copyright (C) 2022 Wabi Animation. All Rights Reserved.
+ */
 
 import MetalKit
 
