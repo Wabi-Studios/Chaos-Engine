@@ -15,6 +15,8 @@
 		C26C1E1127DD9F0A007A207A /* ChaosEngineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C1E1027DD9F0A007A207A /* ChaosEngineUITests.swift */; };
 		C26C1E1327DD9F0A007A207A /* ChaosEngineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C1E1227DD9F0A007A207A /* ChaosEngineUITestsLaunchTests.swift */; };
 		C26C1E2227DD9FDB007A207A /* ChaosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C1E2127DD9FDB007A207A /* ChaosView.swift */; };
+		C26C1E2427DDFAB4007A207A /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C1E2327DDFAB4007A207A /* MetalView.swift */; };
+		C26C1E2627DE04A6007A207A /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C1E2527DE04A6007A207A /* Notifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C26C1E1027DD9F0A007A207A /* ChaosEngineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaosEngineUITests.swift; sourceTree = "<group>"; };
 		C26C1E1227DD9F0A007A207A /* ChaosEngineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaosEngineUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C26C1E2127DD9FDB007A207A /* ChaosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaosView.swift; sourceTree = "<group>"; };
+		C26C1E2327DDFAB4007A207A /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		C26C1E2527DE04A6007A207A /* Notifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				C26C1DFD27DD9F0A007A207A /* ChaosEngine.entitlements */,
 				C26C1DFA27DD9F0A007A207A /* Preview Content */,
 				C26C1E2127DD9FDB007A207A /* ChaosView.swift */,
+				C26C1E2327DDFAB4007A207A /* MetalView.swift */,
+				C26C1E2527DE04A6007A207A /* Notifier.swift */,
 			);
 			path = ChaosEngine;
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C26C1E2627DE04A6007A207A /* Notifier.swift in Sources */,
+				C26C1E2427DDFAB4007A207A /* MetalView.swift in Sources */,
 				C26C1E2227DD9FDB007A207A /* ChaosView.swift in Sources */,
 				C26C1DF727DD9F09007A207A /* ContentView.swift in Sources */,
 				C26C1DF527DD9F09007A207A /* ChaosEngineApp.swift in Sources */,

@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct ChaosEngineApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+struct ChaosEngineApp: App
+{
+  var body: some Scene
+  {
+    WindowGroup
+    {
+      ContentView()
     }
+  }
 }

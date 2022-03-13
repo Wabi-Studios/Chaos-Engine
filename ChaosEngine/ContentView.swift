@@ -1,21 +1,24 @@
-//
-//  ContentView.swift
-//  ChaosEngine
-//
-//  Created by Tyler Furby on 3/12/22.
-//
+/**
+ * Chaos Engine | Apple Metal Viewer
+ *
+ * Copyright (C) 2022 Wabi Animation. All Rights Reserved.
+ */
 
 import SwiftUI
+import MetalKit
 
-struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
+struct ContentView: View
+{
+  var body: some View
+  {
+    MetalView()
+  }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+struct ContentView_Previews: PreviewProvider
+{
+  static var previews: some View
+  {
+    ContentView()
+  }
 }

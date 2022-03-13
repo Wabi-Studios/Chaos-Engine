@@ -18,9 +18,9 @@ class ChaosView: MTKView
     SIMD3<Float>( 1, -1, 0)
   ]
   
-  required init(coder: NSCoder)
+  required init(frameRect: CGRect, device: MTLDevice?)
   {
-    super.init(coder: coder)
+    super.init(frame: frameRect, device: device)
     
     self.device = MTLCreateSystemDefaultDevice()
     
@@ -33,6 +33,11 @@ class ChaosView: MTKView
     createBuffers()
     
     createPipelineState()
+  }
+  
+  required init(coder: NSCoder)
+  {
+    fatalError("CHAOS: Does Not Support Initialization From Storyboards")
   }
   
   func createBuffers()
