@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C26C1DF527DD9F09007A207A /* ChaosEngineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C1DF427DD9F09007A207A /* ChaosEngineApp.swift */; };
+		C26C1DF727DD9F09007A207A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C1DF627DD9F09007A207A /* ContentView.swift */; };
+		C26C1DF927DD9F0A007A207A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26C1DF827DD9F0A007A207A /* Assets.xcassets */; };
+		C26C1DFC27DD9F0A007A207A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26C1DFB27DD9F0A007A207A /* Preview Assets.xcassets */; };
+		C26C1E0727DD9F0A007A207A /* ChaosEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C1E0627DD9F0A007A207A /* ChaosEngineTests.swift */; };
+		C26C1E1127DD9F0A007A207A /* ChaosEngineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C1E1027DD9F0A007A207A /* ChaosEngineUITests.swift */; };
+		C26C1E1327DD9F0A007A207A /* ChaosEngineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C1E1227DD9F0A007A207A /* ChaosEngineUITestsLaunchTests.swift */; };
+		C26C1E2227DD9FDB007A207A /* ChaosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26C1E2127DD9FDB007A207A /* ChaosView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C26C1E0327DD9F0A007A207A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26C1DE927DD9F09007A207A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C26C1DF027DD9F09007A207A;
+			remoteInfo = ChaosEngine;
+		};
+		C26C1E0D27DD9F0A007A207A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26C1DE927DD9F09007A207A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C26C1DF027DD9F09007A207A;
+			remoteInfo = ChaosEngine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C26C1DF127DD9F09007A207A /* ChaosEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaosEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26C1DF427DD9F09007A207A /* ChaosEngineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaosEngineApp.swift; sourceTree = "<group>"; };
+		C26C1DF627DD9F09007A207A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C26C1DF827DD9F0A007A207A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C26C1DFB27DD9F0A007A207A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C26C1DFD27DD9F0A007A207A /* ChaosEngine.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChaosEngine.entitlements; sourceTree = "<group>"; };
+		C26C1E0227DD9F0A007A207A /* ChaosEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaosEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26C1E0627DD9F0A007A207A /* ChaosEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaosEngineTests.swift; sourceTree = "<group>"; };
+		C26C1E0C27DD9F0A007A207A /* ChaosEngineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaosEngineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26C1E1027DD9F0A007A207A /* ChaosEngineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaosEngineUITests.swift; sourceTree = "<group>"; };
+		C26C1E1227DD9F0A007A207A /* ChaosEngineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaosEngineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C26C1E2127DD9FDB007A207A /* ChaosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaosView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C26C1DEE27DD9F09007A207A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26C1DFF27DD9F0A007A207A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26C1E0927DD9F0A007A207A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C26C1DE827DD9F09007A207A = {
+			isa = PBXGroup;
+			children = (
+				C26C1DF327DD9F09007A207A /* ChaosEngine */,
+				C26C1E0527DD9F0A007A207A /* ChaosEngineTests */,
+				C26C1E0F27DD9F0A007A207A /* ChaosEngineUITests */,
+				C26C1DF227DD9F09007A207A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C26C1DF227DD9F09007A207A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C26C1DF127DD9F09007A207A /* ChaosEngine.app */,
+				C26C1E0227DD9F0A007A207A /* ChaosEngineTests.xctest */,
+				C26C1E0C27DD9F0A007A207A /* ChaosEngineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C26C1DF327DD9F09007A207A /* ChaosEngine */ = {
+			isa = PBXGroup;
+			children = (
+				C26C1DF427DD9F09007A207A /* ChaosEngineApp.swift */,
+				C26C1DF627DD9F09007A207A /* ContentView.swift */,
+				C26C1DF827DD9F0A007A207A /* Assets.xcassets */,
+				C26C1DFD27DD9F0A007A207A /* ChaosEngine.entitlements */,
+				C26C1DFA27DD9F0A007A207A /* Preview Content */,
+				C26C1E2127DD9FDB007A207A /* ChaosView.swift */,
+			);
+			path = ChaosEngine;
+			sourceTree = "<group>";
+		};
+		C26C1DFA27DD9F0A007A207A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C26C1DFB27DD9F0A007A207A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C26C1E0527DD9F0A007A207A /* ChaosEngineTests */ = {
+			isa = PBXGroup;
+			children = (
+				C26C1E0627DD9F0A007A207A /* ChaosEngineTests.swift */,
+			);
+			path = ChaosEngineTests;
+			sourceTree = "<group>";
+		};
+		C26C1E0F27DD9F0A007A207A /* ChaosEngineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C26C1E1027DD9F0A007A207A /* ChaosEngineUITests.swift */,
+				C26C1E1227DD9F0A007A207A /* ChaosEngineUITestsLaunchTests.swift */,
+			);
+			path = ChaosEngineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C26C1DF027DD9F09007A207A /* ChaosEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26C1E1627DD9F0A007A207A /* Build configuration list for PBXNativeTarget "ChaosEngine" */;
+			buildPhases = (
+				C26C1DED27DD9F09007A207A /* Sources */,
+				C26C1DEE27DD9F09007A207A /* Frameworks */,
+				C26C1DEF27DD9F09007A207A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChaosEngine;
+			productName = ChaosEngine;
+			productReference = C26C1DF127DD9F09007A207A /* ChaosEngine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C26C1E0127DD9F0A007A207A /* ChaosEngineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26C1E1927DD9F0A007A207A /* Build configuration list for PBXNativeTarget "ChaosEngineTests" */;
+			buildPhases = (
+				C26C1DFE27DD9F0A007A207A /* Sources */,
+				C26C1DFF27DD9F0A007A207A /* Frameworks */,
+				C26C1E0027DD9F0A007A207A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C26C1E0427DD9F0A007A207A /* PBXTargetDependency */,
+			);
+			name = ChaosEngineTests;
+			productName = ChaosEngineTests;
+			productReference = C26C1E0227DD9F0A007A207A /* ChaosEngineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C26C1E0B27DD9F0A007A207A /* ChaosEngineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26C1E1C27DD9F0A007A207A /* Build configuration list for PBXNativeTarget "ChaosEngineUITests" */;
+			buildPhases = (
+				C26C1E0827DD9F0A007A207A /* Sources */,
+				C26C1E0927DD9F0A007A207A /* Frameworks */,
+				C26C1E0A27DD9F0A007A207A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C26C1E0E27DD9F0A007A207A /* PBXTargetDependency */,
+			);
+			name = ChaosEngineUITests;
+			productName = ChaosEngineUITests;
+			productReference = C26C1E0C27DD9F0A007A207A /* ChaosEngineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C26C1DE927DD9F09007A207A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C26C1DF027DD9F09007A207A = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C26C1E0127DD9F0A007A207A = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C26C1DF027DD9F09007A207A;
+					};
+					C26C1E0B27DD9F0A007A207A = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C26C1DF027DD9F09007A207A;
+					};
+				};
+			};
+			buildConfigurationList = C26C1DEC27DD9F09007A207A /* Build configuration list for PBXProject "ChaosEngine" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C26C1DE827DD9F09007A207A;
+			productRefGroup = C26C1DF227DD9F09007A207A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C26C1DF027DD9F09007A207A /* ChaosEngine */,
+				C26C1E0127DD9F0A007A207A /* ChaosEngineTests */,
+				C26C1E0B27DD9F0A007A207A /* ChaosEngineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C26C1DEF27DD9F09007A207A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26C1DFC27DD9F0A007A207A /* Preview Assets.xcassets in Resources */,
+				C26C1DF927DD9F0A007A207A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26C1E0027DD9F0A007A207A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26C1E0A27DD9F0A007A207A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C26C1DED27DD9F09007A207A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26C1E2227DD9FDB007A207A /* ChaosView.swift in Sources */,
+				C26C1DF727DD9F09007A207A /* ContentView.swift in Sources */,
+				C26C1DF527DD9F09007A207A /* ChaosEngineApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26C1DFE27DD9F0A007A207A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26C1E0727DD9F0A007A207A /* ChaosEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26C1E0827DD9F0A007A207A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26C1E1127DD9F0A007A207A /* ChaosEngineUITests.swift in Sources */,
+				C26C1E1327DD9F0A007A207A /* ChaosEngineUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C26C1E0427DD9F0A007A207A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C26C1DF027DD9F09007A207A /* ChaosEngine */;
+			targetProxy = C26C1E0327DD9F0A007A207A /* PBXContainerItemProxy */;
+		};
+		C26C1E0E27DD9F0A007A207A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C26C1DF027DD9F09007A207A /* ChaosEngine */;
+			targetProxy = C26C1E0D27DD9F0A007A207A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C26C1E1427DD9F0A007A207A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C26C1E1527DD9F0A007A207A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C26C1E1727DD9F0A007A207A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChaosEngine/ChaosEngine.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChaosEngine/Preview Content\"";
+				DEVELOPMENT_TEAM = UQ9J5QT9DL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = foundation.wabi.ChaosEngine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C26C1E1827DD9F0A007A207A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChaosEngine/ChaosEngine.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChaosEngine/Preview Content\"";
+				DEVELOPMENT_TEAM = UQ9J5QT9DL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = foundation.wabi.ChaosEngine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C26C1E1A27DD9F0A007A207A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQ9J5QT9DL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = foundation.wabi.ChaosEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaosEngine.app/Contents/MacOS/ChaosEngine";
+			};
+			name = Debug;
+		};
+		C26C1E1B27DD9F0A007A207A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQ9J5QT9DL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = foundation.wabi.ChaosEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaosEngine.app/Contents/MacOS/ChaosEngine";
+			};
+			name = Release;
+		};
+		C26C1E1D27DD9F0A007A207A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQ9J5QT9DL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = foundation.wabi.ChaosEngineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChaosEngine;
+			};
+			name = Debug;
+		};
+		C26C1E1E27DD9F0A007A207A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQ9J5QT9DL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = foundation.wabi.ChaosEngineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChaosEngine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C26C1DEC27DD9F09007A207A /* Build configuration list for PBXProject "ChaosEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26C1E1427DD9F0A007A207A /* Debug */,
+				C26C1E1527DD9F0A007A207A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26C1E1627DD9F0A007A207A /* Build configuration list for PBXNativeTarget "ChaosEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26C1E1727DD9F0A007A207A /* Debug */,
+				C26C1E1827DD9F0A007A207A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26C1E1927DD9F0A007A207A /* Build configuration list for PBXNativeTarget "ChaosEngineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26C1E1A27DD9F0A007A207A /* Debug */,
+				C26C1E1B27DD9F0A007A207A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26C1E1C27DD9F0A007A207A /* Build configuration list for PBXNativeTarget "ChaosEngineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26C1E1D27DD9F0A007A207A /* Debug */,
+				C26C1E1E27DD9F0A007A207A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C26C1DE927DD9F09007A207A /* Project object */;
+}
