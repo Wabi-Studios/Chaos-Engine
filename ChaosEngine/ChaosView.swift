@@ -90,7 +90,8 @@ class ChaosView: MTKView
   
   override func draw(_ dirtyRect: NSRect)
   {
-    guard let drawable = self.currentDrawable, let renderPassDescriptor = self.currentRenderPassDescriptor else { return
+    guard let drawable = self.currentDrawable, let renderPassDescriptor = self.currentRenderPassDescriptor else {
+      return
     }
     
     let cmdBuffer = cmdQueue.makeCommandBuffer()
