@@ -28,7 +28,7 @@ struct RasterizerData
 
 /**
  * The vertex shader sends date off to the rasterizer to be interpolated. */
-vertex RasterizerData basic_vertex_shader(device VertexIn *vertices [[ buffer(0) ]],
+vertex RasterizerData basic_vertex_shader(const device VertexIn *vertices [[ buffer(0) ]],
                                           uint vertexID [[ vertex_id ]])
 {
   RasterizerData rd;
@@ -40,8 +40,8 @@ vertex RasterizerData basic_vertex_shader(device VertexIn *vertices [[ buffer(0)
 }
 
 /**
- * Tbe fragment shader colors in each fragment (pixel) to the color
- * returned from the rasterizer. */
+ * The fragment shader colors in each fragment (pixel)
+ * to the color returned from the rasterizer. */
 fragment half4 basic_fragment_shader(RasterizerData rd [[ stage_in ]])
 {
   float4 color = rd.color;
