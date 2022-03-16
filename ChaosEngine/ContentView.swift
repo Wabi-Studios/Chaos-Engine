@@ -11,7 +11,16 @@ struct ContentView: View
 {
   var body: some View
   {
-    MetalView()
+    VStack (alignment: .center, spacing: 20) {
+      HStack {
+        Text("Chaos Engine")
+          .padding(.top, 5)
+          .padding(.bottom, -15)
+          .padding(.leading)
+        Spacer()
+      }
+      MetalView()
+    }
   }
 }
 

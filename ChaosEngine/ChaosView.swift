@@ -28,7 +28,7 @@ class ChaosView: MTKView
     
     self.device = device
     
-    self.clearColor = MTLClearColor(red: 0.43, green: 0.73, blue: 0.35, alpha: 1.0)
+    self.clearColor = MTLClearColor(red: 0.54, green: 0.35, blue: 0.95, alpha: 1.0)
     
     self.colorPixelFormat = .bgra8Unorm
     
@@ -56,7 +56,7 @@ class ChaosView: MTKView
     let fragmentFunction = library?.makeFunction(name: "basic_fragment_shader")
     
     let renderPipelineDescriptor = MTLRenderPipelineDescriptor()
-    renderPipelineDescriptor.colorAttachments[0].pixelFormat = .bgra8Unorm
+    renderPipelineDescriptor.colorAttachments[0].pixelFormat = self.colorPixelFormat
     renderPipelineDescriptor.vertexFunction = vertexFunction
     renderPipelineDescriptor.fragmentFunction = fragmentFunction
     
