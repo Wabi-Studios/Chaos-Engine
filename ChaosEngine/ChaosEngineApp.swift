@@ -14,7 +14,7 @@ struct ChaosEngineApp: App
   {
     WindowGroup
     {
-      ContentView()
+      ContentView(actions: ACT())
     }
   }
 }
