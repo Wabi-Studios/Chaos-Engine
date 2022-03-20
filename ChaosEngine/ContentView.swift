@@ -16,9 +16,13 @@ struct ContentView: View
     MetalView()
       .toolbar {
         ToolbarItemGroup(placement: .navigation) {
-          Image(colorScheme == .dark ? "chaos-dark" : "chaos-light")
+          Image(colorScheme == .dark ? "dark" : "light")
+            .interpolation(.high)
             .resizable()
+            .scaledToFit()
             .frame(width: 32.0, height: 32.0)
+            .background(.clear)
+            .ignoresSafeArea()
         }
       }
   }
