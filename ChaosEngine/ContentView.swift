@@ -9,18 +9,18 @@ import MetalKit
 
 struct ContentView: View
 {
+  @Environment(\.colorScheme) var colorScheme
+  
   var body: some View
   {
-    VStack (alignment: .center, spacing: 20) {
-      HStack {
-        Text("Chaos Engine")
-          .padding(.top, 5)
-          .padding(.bottom, -15)
-          .padding(.leading)
-        Spacer()
+    MetalView()
+      .toolbar {
+        ToolbarItemGroup(placement: .navigation) {
+          Image(colorScheme == .dark ? "chaos-dark" : "chaos-light")
+            .resizable()
+            .frame(width: 32.0, height: 32.0)
+        }
       }
-      MetalView()
-    }
   }
 }
 

@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C26C1DF127DD9F09007A207A /* ChaosEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaosEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26C1DF127DD9F09007A207A /* Chaos Engine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chaos Engine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26C1DF427DD9F09007A207A /* ChaosEngineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaosEngineApp.swift; sourceTree = "<group>"; };
 		C26C1DF627DD9F09007A207A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C26C1DF827DD9F0A007A207A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 		C26C1DF227DD9F09007A207A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C26C1DF127DD9F09007A207A /* ChaosEngine.app */,
+				C26C1DF127DD9F09007A207A /* Chaos Engine.app */,
 				C26C1E0227DD9F0A007A207A /* ChaosEngineTests.xctest */,
 				C26C1E0C27DD9F0A007A207A /* ChaosEngineUITests.xctest */,
 			);
@@ -158,7 +158,7 @@
 			);
 			name = ChaosEngine;
 			productName = ChaosEngine;
-			productReference = C26C1DF127DD9F09007A207A /* ChaosEngine.app */;
+			productReference = C26C1DF127DD9F09007A207A /* Chaos Engine.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C26C1E0127DD9F0A007A207A /* ChaosEngineTests */ = {
@@ -447,7 +447,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = foundation.wabi.ChaosEngine;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Chaos Engine";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -474,7 +474,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = foundation.wabi.ChaosEngine;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Chaos Engine";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
