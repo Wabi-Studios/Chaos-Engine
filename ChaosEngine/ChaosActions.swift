@@ -5,12 +5,19 @@
  */
 
 import Foundation
+import GameKit
 
 struct cActions
 {
   func File()
   {
-    print("File()")
+    let panel = NSOpenPanel()
+    panel.allowsMultipleSelection = false
+    panel.canChooseDirectories = false
+    // TODO: Save filename
+    // if panel.runModal() == .OK {
+    //   self.filename = panel.url?.lastPathComponent ?? "<none>"
+    // }
   }
   
   func Edit()

@@ -9,6 +9,8 @@ import MetalKit
 
 struct ContentView: View
 {
+  @State var filename = "Filename"
+  @State var showFileChooser = false
   @Environment(\.colorScheme) var colorScheme
   
   let actions: cActions
