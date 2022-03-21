@@ -11,7 +11,7 @@ struct ContentView: View
 {
   @Environment(\.colorScheme) var colorScheme
   
-  let actions: ACT
+  let actions: cActions
   
   var body: some View
   {
@@ -33,7 +33,7 @@ struct ContentView: View
             Button("Help",   action: actions.Help).padding(.leading, 10)
           }
         }
-      }.navigationTitle("").background(.clear)
+      }.navigationTitle("")
   }  
 }
 
@@ -41,6 +41,6 @@ struct ContentView_Previews: PreviewProvider
 {
   static var previews: some View
   {
-    ContentView(actions: ACT())
+    ContentView(actions: cActions())
   }
 }

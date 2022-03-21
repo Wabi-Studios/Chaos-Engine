@@ -1,9 +1,8 @@
-//
-//  ChaosEngineApp.swift
-//  ChaosEngine
-//
-//  Created by Tyler Furby on 3/12/22.
-//
+/**
+ * Chaos Engine | Apple Metal Viewer
+ *
+ * Copyright (C) 2022 Wabi Animation. All Rights Reserved.
+ */
 
 import SwiftUI
 
@@ -14,7 +13,7 @@ struct ChaosEngineApp: App
   {
     WindowGroup
     {
-      ContentView(actions: ACT())
+      ContentView(actions: cActions())
     }
   }
 }
